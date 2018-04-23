@@ -1,0 +1,23 @@
+{
+    "name": "eframe/http",
+    "description": "Extend Illuminate Http package.",
+    "require": {
+        "illuminate/http": "^5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazarii Makar",
+            "email": "nazar.makar@magnise.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EFrame\\Http\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
